@@ -1,0 +1,159 @@
+body {
+    background-color: rgb(234, 243, 243);
+    font-family: Roboto;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    margin: auto;
+}
+
+.body {
+    background-color: white;
+    width: 450px;
+    border-radius: 8px;
+    padding: 2px;
+    margin: auto;
+}
+
+.account {
+    text-align: center;
+}
+
+.createAccount {
+    font-weight: bold;
+    font-size: 30px;
+    margin: 0;
+    padding-top: 10px;
+}
+
+.accountdesc {
+    color: rgb(134, 130, 130);
+    margin: 0;
+}
+
+hr {
+    margin: 15px;
+}
+
+.firstname,
+.surname {
+    padding: 8px;
+    font-size: 15px;
+    border: solid;
+    border-color: #ccd0d5;
+    border-width: 1px;
+    border-radius: 3px;
+}
+
+.firstname {
+    margin: 0px 5px 0px 10px;
+}
+
+.surname {
+    margin: 0px 5px 0px 0px;
+}
+
+.mobileoremail,
+.password {
+    padding: 8px;
+    font-size: 15px;
+    border: solid;
+    border-color: #ccd0d5;
+    border-width: 1px;
+    border-radius: 3px;
+    width: 410px;
+    margin: 10px 5px 0px 10px;
+}
+
+.password {
+    margin-bottom: 15px;
+}
+
+.dob {
+    margin: 10px;
+    font-size: 14px;
+}
+
+.birthday {
+    display: flex;
+}
+
+select {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 7px;
+    width: 125px;
+    margin: 10px;
+    margin-bottom: 10px;
+    border: solid;
+    border-width: 1px;
+    border-color: #ccd0d5;
+}
+
+.gender-title {
+    margin: 5px 0px 5px 10px;
+    font-size: 14px;
+}
+
+.gender {
+    border: solid;
+    margin: 10px;
+    display: flex;
+    border-color: #ccd0d5;
+    border-width: 1px;
+    border-radius: 4px;
+}
+
+.female,
+.male,
+.custom {
+    padding: 7px 45px 7px 10px;
+}
+
+.gendernames {
+    display: flex;
+    margin: 10px;
+    margin-top: 2px;
+}
+
+.para {
+    font-size: 12px;
+    margin: 10px;
+    font-family: inherit;
+    color: rgb(68, 65, 65);
+    letter-spacing: 1px;
+}
+
+.blue-text {
+    color: blue;
+}
+
+.blue-text:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+button {
+    padding: 8px 70px 8px 70px;
+    background-color: rgb(23, 177, 23);
+    color: white;
+    font-weight: bold;
+    border-style: none;
+    border-radius: 7px;
+    margin: 10px 90px 10px 120px;
+    font-size: large;
+    cursor: pointer;
+}
+
+.loginIn {
+    text-align: center;
+    color: rgb(27, 55, 182);
+    margin: 10px 0px 25px 0px;
+    font-size: medium;
+    cursor: pointer;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
